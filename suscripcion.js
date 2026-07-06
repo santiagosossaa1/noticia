@@ -142,7 +142,7 @@ document.getElementById("ciudad").addEventListener("focus", function() { limpiar
 document.getElementById("codigo-postal").addEventListener("focus", function() { limpiarError("error-codigo-postal"); });
 document.getElementById("dni").addEventListener("focus", function() { limpiarError("error-dni"); });
 
-// Bonus: título en tiempo real
+// Titulo en tiempo real
 document.getElementById("nombre").addEventListener("keyup", function() {
     var nombre = document.getElementById("nombre").value.trim();
     if (nombre !== "") {
